@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+// Компонент редактирования
 const EditModal = ({ seminar, onClose, onSave }) => {
   const [editedData, setEditedData] = useState({ ...seminar });
   const [loading, setLoading] = useState(false);
