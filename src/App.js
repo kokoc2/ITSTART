@@ -4,7 +4,7 @@ import Seminars from "./Seminars.js";
 function App() {
   return (
     <div className="App">
-      <h1>Наши продукты</h1>
+      <h1>Косметологические семинары</h1>
       {/* Отрисовываем компонент с семинарами */}
       <Seminars />
     </div>
