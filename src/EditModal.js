@@ -46,7 +46,7 @@ const EditModal = ({ seminar, onClose, onSave }) => {
   return (
     <div className="modal-overlay">
       <div className="modal-content">
-        <h2>Редактирование семинара</h2>
+        <h2>Редактирование продукта</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label>Название:</label>
@@ -71,22 +71,22 @@ const EditModal = ({ seminar, onClose, onSave }) => {
 
           <div className="form-row">
             <div className="form-group">
-              <label>Дата:</label>
+              <label>Количество:</label>
               <input
                 type="text"
-                name="date"
-                value={editedData.date}
+                name="count"
+                value={editedData.count}
                 onChange={handleChange}
                 required
               />
             </div>
 
             <div className="form-group">
-              <label>Время:</label>
+              <label>Отзывы:</label>
               <input
                 type="text"
-                name="time"
-                value={editedData.time}
+                name="reviews"
+                value={editedData.reviews}
                 onChange={handleChange}
                 required
               />

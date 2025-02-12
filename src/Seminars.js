@@ -87,8 +87,8 @@ const Seminars = () => {
             <h2>{seminar.title}</h2>
             <p>{seminar.description}</p>
             <div className="seminar-time">
-              <span>{seminar.date}</span>
-              <span>{seminar.time}</span>
+              <span>Продано более: {seminar.count} штук</span>
+              <span> Довольных покупателей : {seminar.reviews} </span>
             </div>
             <div className="button-container">
               <button
